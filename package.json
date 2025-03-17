@@ -1,0 +1,26 @@
+{
+  "name": "address-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "express": "^4.21.2",
+    "express-basic-auth": "^1.2.1",
+    "pg": "^8.14.1",
+    "sequelize": "^6.37.6",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "liquibase": "^4.28.1",
+    "supertest": "^7.0.0"
+  }
+}
