@@ -14,7 +14,7 @@ router.use((req, res, next) => {
   next();
 });
 
-router.get("/", addressController.getAllAddresses);
+router.get("/", addressController.getRandomAddresses);
 router.post("/", addressController.createAddress);
 
 module.exports = router;
